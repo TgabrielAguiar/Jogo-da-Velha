@@ -1,7 +1,7 @@
 let x = document.querySelector(".x");
 let o = document.querySelector(".o");
 let boxes = document.querySelectorAll(".box");
-let buttons = document.querySelector("#button-container button");
+let buttons = document.querySelector("#buttons-container button");
 let messageContainer = document.querySelector("#message");
 let messageText = document.querySelector("#message p");
 let secondPlayer;
@@ -38,6 +38,8 @@ for(let i =0; i < boxes.length; i++){
 
 }
 
+
+//ve quem vai jogar
 function checkEl(player1,player2){
   if(player1 == player2){
     el = x;
